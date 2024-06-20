@@ -33,6 +33,14 @@ cloudinary_name=your_cloudinary_name (from cloudinary website)
 cloudinary_key= your_cloudinary_key
 cloudinary_secret= your_cloudinary_secret
 
-6) 
+```
+6) Now, first write command "nodemon start" in server directory terminal to run server at port 3000 and then write " npm run dev "  in client directory terminal to run next.js website at port 3001. 
+
+## Important NOTE
+
+Next.js is slow in development mode and therefore when you click any button to navigate to other page, url will be updated according to that page but the page won't render soon. So, go at the updated url and manually click "Enter" to render that page.
+
+
+
 
 
