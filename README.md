@@ -23,14 +23,15 @@ It has following features:-
 4) write " npm ci " in each terminal to install all dependencies at same versions as used in this process.
 
 5) To run this project, you will need to create a `.env` file in the server folder with the following environment variables:
+```
+database=your_database_link(e.g. mongodb+srv://<username>:<password>@cluster0.xfpbdyq.mongodb.net/<collection_name>?retryWrites=true&w=majority&appName=Cluster0)
 
--database=your_database_link(e.g. mongodb+srv://<username>:<password>@cluster0.xfpbdyq.mongodb.net/<collection_name>?retryWrites=true&w=majority&appName=Cluster0)
+JWT_SECRET=create_any_secret(e.g. "my_secret")
 
--JWT_SECRET=create_any_secret(e.g. "my_secret")
-
--cloudinary_name=your_cloudinary_name (from cloudinary website)
--cloudinary_key= your_cloudinary_key
--cloudinary_secret= your_cloudinary_secret
+cloudinary_name=your_cloudinary_name (from cloudinary website)
+cloudinary_key= your_cloudinary_key
+cloudinary_secret= your_cloudinary_secret
+```
 
 6) Now, first write command "nodemon start" in server directory terminal to run server at port 3000 and then write " npm run dev "  in client directory terminal to run next.js website at port 3001. 
 
